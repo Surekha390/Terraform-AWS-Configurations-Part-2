@@ -1,0 +1,44 @@
+2025-03-24T06:57:28.544+0100 [INFO]  Terraform version: 1.11.1
+2025-03-24T06:57:28.545+0100 [INFO]  Go runtime version: go1.23.3
+2025-03-24T06:57:28.545+0100 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "ini"}
+2025-03-24T06:57:28.549+0100 [INFO]  CLI command args: []string{"ini"}
+2025-03-24T06:57:31.106+0100 [INFO]  Terraform version: 1.11.1
+2025-03-24T06:57:31.107+0100 [INFO]  Go runtime version: go1.23.3
+2025-03-24T06:57:31.107+0100 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "init"}
+2025-03-24T06:57:31.112+0100 [INFO]  CLI command args: []string{"init"}
+2025-03-24T06:57:38.313+0100 [INFO]  Terraform version: 1.11.1
+2025-03-24T06:57:38.314+0100 [INFO]  Go runtime version: go1.23.3
+2025-03-24T06:57:38.314+0100 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
+2025-03-24T06:57:38.319+0100 [INFO]  CLI command args: []string{"plan"}
+2025-03-24T06:57:38.341+0100 [INFO]  backend/local: starting Plan operation
+2025-03-24T06:57:38.358+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-24T06:57:38.399+0100 [INFO]  provider.terraform-provider-local_v2.5.2_x5.exe: configuring server automatic mTLS: timestamp="2025-03-24T06:57:38.397+0100"
+2025-03-24T06:57:38.442+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/local/2.5.2/windows_amd64/terraform-provider-local_v2.5.2_x5.exe id=10548
+2025-03-24T06:57:38.461+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-24T06:57:38.481+0100 [INFO]  provider.terraform-provider-local_v2.5.2_x5.exe: configuring server automatic mTLS: timestamp="2025-03-24T06:57:38.480+0100"
+2025-03-24T06:57:38.507+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/local/2.5.2/windows_amd64/terraform-provider-local_v2.5.2_x5.exe id=4576
+2025-03-24T06:57:38.509+0100 [INFO]  backend/local: plan calling Plan
+2025-03-24T06:57:38.512+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-24T06:57:38.528+0100 [INFO]  provider.terraform-provider-local_v2.5.2_x5.exe: configuring server automatic mTLS: timestamp="2025-03-24T06:57:38.528+0100"
+2025-03-24T06:57:38.560+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/local/2.5.2/windows_amd64/terraform-provider-local_v2.5.2_x5.exe id=32164
+2025-03-24T06:57:38.563+0100 [INFO]  backend/local: plan operation completed
+2025-03-24T07:02:46.113+0100 [INFO]  Terraform version: 1.11.1
+2025-03-24T07:02:46.115+0100 [INFO]  Go runtime version: go1.23.3
+2025-03-24T07:02:46.115+0100 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "apply"}
+2025-03-24T07:02:46.118+0100 [INFO]  CLI command args: []string{"apply"}
+2025-03-24T07:02:46.137+0100 [INFO]  backend/local: starting Apply operation
+2025-03-24T07:02:46.167+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-24T07:02:46.194+0100 [INFO]  provider.terraform-provider-local_v2.5.2_x5.exe: configuring server automatic mTLS: timestamp="2025-03-24T07:02:46.194+0100"
+2025-03-24T07:02:46.215+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/local/2.5.2/windows_amd64/terraform-provider-local_v2.5.2_x5.exe id=30544
+2025-03-24T07:02:46.230+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-24T07:02:46.248+0100 [INFO]  provider.terraform-provider-local_v2.5.2_x5.exe: configuring server automatic mTLS: timestamp="2025-03-24T07:02:46.247+0100"
+2025-03-24T07:02:46.276+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/local/2.5.2/windows_amd64/terraform-provider-local_v2.5.2_x5.exe id=31180
+2025-03-24T07:02:46.277+0100 [INFO]  backend/local: apply calling Plan
+2025-03-24T07:02:46.280+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-24T07:02:46.297+0100 [INFO]  provider.terraform-provider-local_v2.5.2_x5.exe: configuring server automatic mTLS: timestamp="2025-03-24T07:02:46.297+0100"
+2025-03-24T07:02:46.328+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/local/2.5.2/windows_amd64/terraform-provider-local_v2.5.2_x5.exe id=31012
+2025-03-24T07:02:49.569+0100 [INFO]  backend/local: apply calling Apply
+2025-03-24T07:02:49.571+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-24T07:02:49.592+0100 [INFO]  provider.terraform-provider-local_v2.5.2_x5.exe: configuring server automatic mTLS: timestamp="2025-03-24T07:02:49.591+0100"
+2025-03-24T07:02:49.615+0100 [INFO]  Starting apply for local_file.foo
+2025-03-24T07:02:49.630+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/local/2.5.2/windows_amd64/terraform-provider-local_v2.5.2_x5.exe id=5692
