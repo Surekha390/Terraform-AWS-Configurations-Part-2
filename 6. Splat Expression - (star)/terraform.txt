@@ -1,0 +1,88 @@
+2025-03-25T06:40:39.977+0100 [INFO]  Terraform version: 1.11.1
+2025-03-25T06:40:39.978+0100 [INFO]  Go runtime version: go1.23.3
+2025-03-25T06:40:39.978+0100 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "init"}
+2025-03-25T06:40:39.983+0100 [INFO]  CLI command args: []string{"init"}
+2025-03-25T06:41:22.293+0100 [INFO]  Terraform version: 1.11.1
+2025-03-25T06:41:22.293+0100 [INFO]  Go runtime version: go1.23.3
+2025-03-25T06:41:22.293+0100 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
+2025-03-25T06:41:22.297+0100 [INFO]  CLI command args: []string{"plan"}
+2025-03-25T06:41:22.808+0100 [INFO]  backend/local: starting Plan operation
+2025-03-25T06:41:22.853+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-25T06:41:22.996+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: configuring server automatic mTLS: timestamp="2025-03-25T06:41:22.995+0100"
+2025-03-25T06:41:23.734+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.92.0/windows_amd64/terraform-provider-aws_v5.92.0_x5.exe id=29840
+2025-03-25T06:41:23.752+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-25T06:41:23.896+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: configuring server automatic mTLS: timestamp="2025-03-25T06:41:23.895+0100"
+2025-03-25T06:41:23.978+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.92.0/windows_amd64/terraform-provider-aws_v5.92.0_x5.exe id=26308
+2025-03-25T06:41:23.980+0100 [INFO]  backend/local: plan calling Plan
+2025-03-25T06:41:23.985+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-25T06:41:24.218+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: configuring server automatic mTLS: timestamp="2025-03-25T06:41:24.217+0100"
+2025-03-25T06:41:24.320+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: Retrieved credentials: @module=aws.aws-base tf_aws.credentials_source="SharedConfigCredentials: C:\Users\dci-student\.aws\credentials" tf_mux_provider="*schema.GRPCProviderServer" tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.63/logging/tf_logger.go:39 tf_req_id=67f876d5-c025-11e5-a154-d9a63fcd3187 timestamp="2025-03-25T06:41:24.320+0100"
+2025-03-25T06:41:35.404+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: Retrieved caller identity from STS: @module=aws.aws-base tf_provider_addr=registry.terraform.io/hashicorp/aws @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.63/logging/tf_logger.go:39 tf_mux_provider="*schema.GRPCProviderServer" tf_req_id=67f876d5-c025-11e5-a154-d9a63fcd3187 tf_rpc=ConfigureProvider timestamp="2025-03-25T06:41:35.404+0100"
+2025-03-25T06:41:36.295+0100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_iam_user.lb[2], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+2025-03-25T06:41:36.295+0100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_iam_user.lb[1], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+2025-03-25T06:41:36.295+0100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_iam_user.lb[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+2025-03-25T06:41:36.327+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.92.0/windows_amd64/terraform-provider-aws_v5.92.0_x5.exe id=32476
+2025-03-25T06:41:36.341+0100 [INFO]  backend/local: plan operation completed
+2025-03-25T06:41:46.028+0100 [INFO]  Terraform version: 1.11.1
+2025-03-25T06:41:46.029+0100 [INFO]  Go runtime version: go1.23.3
+2025-03-25T06:41:46.029+0100 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "appl"}
+2025-03-25T06:41:46.033+0100 [INFO]  CLI command args: []string{"appl"}
+2025-03-25T06:41:48.880+0100 [INFO]  Terraform version: 1.11.1
+2025-03-25T06:41:48.881+0100 [INFO]  Go runtime version: go1.23.3
+2025-03-25T06:41:48.881+0100 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "apply"}
+2025-03-25T06:41:48.885+0100 [INFO]  CLI command args: []string{"apply"}
+2025-03-25T06:41:50.184+0100 [INFO]  backend/local: starting Apply operation
+2025-03-25T06:41:50.191+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-25T06:41:50.420+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: configuring server automatic mTLS: timestamp="2025-03-25T06:41:50.419+0100"
+2025-03-25T06:41:51.389+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.92.0/windows_amd64/terraform-provider-aws_v5.92.0_x5.exe id=31432
+2025-03-25T06:41:51.411+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-25T06:41:51.570+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: configuring server automatic mTLS: timestamp="2025-03-25T06:41:51.569+0100"
+2025-03-25T06:41:51.621+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.92.0/windows_amd64/terraform-provider-aws_v5.92.0_x5.exe id=14272
+2025-03-25T06:41:51.622+0100 [INFO]  backend/local: apply calling Plan
+2025-03-25T06:41:51.625+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-25T06:41:51.760+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: configuring server automatic mTLS: timestamp="2025-03-25T06:41:51.758+0100"
+2025-03-25T06:41:51.868+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: Retrieved credentials: @module=aws.aws-base tf_aws.credentials_source="SharedConfigCredentials: C:\Users\dci-student\.aws\credentials" tf_mux_provider="*schema.GRPCProviderServer" tf_req_id=71a262e0-6dfb-2786-86be-3ec6f934031c @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.63/logging/tf_logger.go:39 tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider timestamp="2025-03-25T06:41:51.868+0100"
+2025-03-25T06:41:52.624+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: Retrieved caller identity from STS: tf_req_id=71a262e0-6dfb-2786-86be-3ec6f934031c tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.63/logging/tf_logger.go:39 @module=aws.aws-base tf_mux_provider="*schema.GRPCProviderServer" tf_provider_addr=registry.terraform.io/hashicorp/aws timestamp="2025-03-25T06:41:52.624+0100"
+2025-03-25T06:41:52.655+0100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_iam_user.lb[2], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+2025-03-25T06:41:52.655+0100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_iam_user.lb[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+2025-03-25T06:41:52.655+0100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_iam_user.lb[1], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+2025-03-25T06:41:52.681+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.92.0/windows_amd64/terraform-provider-aws_v5.92.0_x5.exe id=23224
+2025-03-25T06:41:55.092+0100 [INFO]  backend/local: apply calling Apply
+2025-03-25T06:41:55.094+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-25T06:41:55.242+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: configuring server automatic mTLS: timestamp="2025-03-25T06:41:55.242+0100"
+2025-03-25T06:41:55.330+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: Retrieved credentials: @module=aws.aws-base tf_req_id=cb46dbdd-9e1b-6f71-11fa-b9e828532429 tf_aws.credentials_source="SharedConfigCredentials: C:\Users\dci-student\.aws\credentials" tf_mux_provider="*schema.GRPCProviderServer" tf_provider_addr=registry.terraform.io/hashicorp/aws tf_rpc=ConfigureProvider @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.63/logging/tf_logger.go:39 timestamp="2025-03-25T06:41:55.330+0100"
+2025-03-25T06:41:56.079+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: Retrieved caller identity from STS: tf_mux_provider="*schema.GRPCProviderServer" @caller=github.com/hashicorp/aws-sdk-go-base/v2@v2.0.0-beta.63/logging/tf_logger.go:39 @module=aws.aws-base tf_provider_addr=registry.terraform.io/hashicorp/aws tf_req_id=cb46dbdd-9e1b-6f71-11fa-b9e828532429 tf_rpc=ConfigureProvider timestamp="2025-03-25T06:41:56.078+0100"
+2025-03-25T06:41:56.101+0100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_iam_user.lb[2], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+2025-03-25T06:41:56.101+0100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_iam_user.lb[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+2025-03-25T06:41:56.101+0100 [WARN]  Provider "registry.terraform.io/hashicorp/aws" produced an invalid plan for aws_iam_user.lb[1], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .force_destroy: planned value cty.False for a non-computed attribute
+2025-03-25T06:41:56.103+0100 [INFO]  Starting apply for aws_iam_user.lb[2]
+2025-03-25T06:41:56.103+0100 [INFO]  Starting apply for aws_iam_user.lb[1]
+2025-03-25T06:41:56.104+0100 [INFO]  Starting apply for aws_iam_user.lb[0]
+2025-03-25T06:41:56.741+0100 [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/aws\"]" produced an unexpected new value for aws_iam_user.lb[0], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .permissions_boundary: was null, but now cty.StringVal("")
+2025-03-25T06:41:56.741+0100 [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/aws\"]" produced an unexpected new value for aws_iam_user.lb[1], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .permissions_boundary: was null, but now cty.StringVal("")
+2025-03-25T06:41:56.751+0100 [WARN]  Provider "provider[\"registry.terraform.io/hashicorp/aws\"]" produced an unexpected new value for aws_iam_user.lb[2], but we are tolerating it because it is using the legacy plugin SDK.
+    The following problems may be the cause of any confusing errors from downstream operations:
+      - .permissions_boundary: was null, but now cty.StringVal("")
+2025-03-25T06:41:56.806+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.92.0/windows_amd64/terraform-provider-aws_v5.92.0_x5.exe id=13944
