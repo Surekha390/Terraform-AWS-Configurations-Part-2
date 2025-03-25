@@ -14,3 +14,15 @@
 2025-03-25T05:46:28.175+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: configuring server automatic mTLS: timestamp="2025-03-25T05:46:28.174+0100"
 2025-03-25T05:46:28.288+0100 [ERROR] vertex "aws_instance.myec2" error: Reference to undeclared input variable
 2025-03-25T05:46:28.312+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.92.0/windows_amd64/terraform-provider-aws_v5.92.0_x5.exe id=5336
+2025-03-25T05:53:56.233+0100 [INFO]  Terraform version: 1.11.1
+2025-03-25T05:53:56.234+0100 [INFO]  Go runtime version: go1.23.3
+2025-03-25T05:53:56.234+0100 [INFO]  CLI args: []string{"C:\\terraform\\terraform.exe", "plan"}
+2025-03-25T05:53:56.239+0100 [INFO]  CLI command args: []string{"plan"}
+2025-03-25T05:53:57.585+0100 [INFO]  backend/local: starting Plan operation
+2025-03-25T05:53:57.636+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-25T05:53:57.959+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: configuring server automatic mTLS: timestamp="2025-03-25T05:53:57.958+0100"
+2025-03-25T05:53:58.842+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.92.0/windows_amd64/terraform-provider-aws_v5.92.0_x5.exe id=26340
+2025-03-25T05:53:58.871+0100 [INFO]  provider: configuring client automatic mTLS
+2025-03-25T05:53:59.066+0100 [INFO]  provider.terraform-provider-aws_v5.92.0_x5.exe: configuring server automatic mTLS: timestamp="2025-03-25T05:53:59.065+0100"
+2025-03-25T05:53:59.178+0100 [ERROR] vertex "aws_instance.myec2" error: Reference to undeclared input variable
+2025-03-25T05:53:59.202+0100 [INFO]  provider: plugin process exited: plugin=.terraform/providers/registry.terraform.io/hashicorp/aws/5.92.0/windows_amd64/terraform-provider-aws_v5.92.0_x5.exe id=19288

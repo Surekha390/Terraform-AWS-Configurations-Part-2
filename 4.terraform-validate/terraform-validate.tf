@@ -4,8 +4,8 @@ provider "aws" {
 
 resource "aws_instance" "myec2" {
   ami           = "ami-082b5a644766e0e6f"
-  instance_type = var.instancetype  #throws error
-  sky = "blue" #throws error
+  #instance_type = var.instancetype  #throws error
+  #sky = "blue" #throws error
 }
 
 #we have to run terraform validate and it checks for syntax errors and throws errors.
