@@ -1,0 +1,10 @@
+digraph G {
+  rankdir = "RL";
+  node [shape = rect, fontname = "sans-serif"];
+  "aws_eip.lb" [label="aws_eip.lb"];
+  "aws_instance.web" [label="aws_instance.web"];
+  "aws_security_group.example" [label="aws_security_group.example"];
+  "aws_vpc_security_group_ingress_rule.example-1" [label="aws_vpc_security_group_ingress_rule.example-1"];
+  "aws_vpc_security_group_ingress_rule.example-1" -> "aws_eip.lb";
+  "aws_vpc_security_group_ingress_rule.example-1" -> "aws_security_group.example";
+}
