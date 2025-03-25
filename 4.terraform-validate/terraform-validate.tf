@@ -14,3 +14,4 @@ resource "aws_instance" "myec2" {
 #Reference to undeclared input variable.
 
 #when we add sky = “blue” argument in aws_instance resource, and when we run terraform validate, it throws an error stating that “unsupported argument”
+#
