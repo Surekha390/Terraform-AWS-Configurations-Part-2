@@ -5,13 +5,16 @@ provider "aws" {
 resource "aws_instance" "myec2" {
     ami = "ami-0b6d6dacf350ebc82"
     instance_type = "t2.micro"
+    
 
     tags = {
-        Name = "HelloEarth-New"
+        #Name = "HelloEarth-New"
+        Name = "My-ec2"
     }
     
     lifecycle {
-      ignore_changes = [tags]
+      #ignore_changes = [tags,instance_type]
+      ignore_changes = all
     }
     
 }
@@ -31,4 +34,8 @@ Ex: Through this file, we create a EC2 instance and we want to add one more tag 
 then it shows that we should remove that extra tag, which is not there in our configuration file. So, when we use "lifecycle" meta data, Terraform will ignore 
 the changes and Terraform plan or Apply won't do any change to our Tag which we created manually.
 
+Dis-advantage: Biggest dis-advantage is, when we want to make changes to our attributes which we specified in ignore_changes list through
+Terraform configuration, Terraform ignores those changes also including manual changes.  
+Ex: when we want to chnage the tag from name="HelloEarth-New" to Name = "My-ec2" , Terraform won't even allow these changes. Terraform
+will simply ignore.
 */
