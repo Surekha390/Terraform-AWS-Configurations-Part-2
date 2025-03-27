@@ -1,0 +1,11 @@
+variable "user_names" {
+    type = set(string)
+    default = ["zebra","alice","bob","john","james"]
+}
+
+resource "aws_iam_user" "this" {
+    for_each = var.user_names
+    name = each.value  # in set we don't have keys, we have only values "alice","bob","john". So when we specify each.key also it will specify the same names.
+}
+
+#When we use set, elements will be taken in alphabetic order.
